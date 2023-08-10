@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DEMO_APP_LICH_HOC</id>
+    <version>1.0.0</version>
+    <authors>DEMO_APP_LICH_HOC</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="7.0.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\CODE\VisualStudio\DEMO_APP_LICH_HOC\bin\Debug\net6.0-windows\DEMO_APP_LICH_HOC.runtimeconfig.json" target="lib\net6.0-windows7.0\DEMO_APP_LICH_HOC.runtimeconfig.json" />
+    <file src="E:\CODE\VisualStudio\DEMO_APP_LICH_HOC\bin\Debug\net6.0-windows\DEMO_APP_LICH_HOC.dll" target="lib\net6.0-windows7.0\DEMO_APP_LICH_HOC.dll" />
+  </files>
+</package>
